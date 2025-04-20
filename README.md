@@ -27,6 +27,22 @@ Predict customer churn using ML algorithms (KNN, Decision Tree, Random Forest).
   - **Accuracy:** Train = **81.72%**, Test = **81.33%**
 - Model Interpretation (Feature Importance)
 
+After running the notebook (Churn_KNN_RF_DT.ipynb), a trained Random Forest model file (random_forest_model.pkl) is automatically created.
+✅ How to Use the Model File:
+After execution, the file will appear in your project folder (Part_A_ML_Python/random_forest_model.pkl).
+Important: Move (copy-paste) this model file into the Part B folder for further use:
+Customer-Churn-Prediction-Project/
+├── Part_A_ML_Python/
+│   ├── Churn_KNN_RF_DT.ipynb
+│   ├── python_project_presentation_final.pptx
+│   └── random_forest_model.pkl  ⬅️ (created here)
+│
+└── Part_B_MongoDB/
+    ├── Mongo_PartB.ipynb
+    ├── random_forest_model.pkl  ⬅️ 📂 (move the file here)
+    └── Screenshots/
+        ├── 6.1.PNG
+        └── 6.2.PNG
 ---
 
 ### 📌 [Part B: MongoDB Integration](Part_B_MongoDB/)
@@ -38,6 +54,8 @@ Integration of MongoDB for data storage and querying with Python.
 
 **Notebook:**  
 [`Mongo_PartB.ipynb`](Part_B_MongoDB/Mongo_PartB.ipynb)
+Ensure the file random_forest_model.pkl (generated from Part A) is placed in this folder before running the notebook (Mongo_PartB.ipynb).
+Load and use the previously generated random_forest_model.pkl for churn predictions.
 
 **Screenshots (MongoDB Compass):**
 - Schema Analysis and Cleaning (`6.1.PNG`, `6.2.PNG`)

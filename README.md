@@ -1,8 +1,6 @@
 # Big-Data-Python-Churn-Project 📉🔍
 Customer churn prediction project using Python, Machine Learning (KNN, Decision Trees, Random Forest), and MongoDB integration.
 
-This repository contains a complete customer churn prediction solution developed using Python, Machine Learning algorithms (KNN, Decision Tree, Random Forest), and MongoDB integration.
-
 ---
 
 ## 👥 Team Members:

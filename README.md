@@ -33,20 +33,6 @@ After running the notebook (Churn_KNN_RF_DT.ipynb), a trained Random Forest mode
 
 After execution, the file will appear in your project folder (Part_A_ML_Python/random_forest_model.pkl).
 Important: Move (copy-paste) this model file into the Part B folder for further use:
-
-Customer-Churn-Prediction-Project/
-├── Part_A_ML_Python/
-│   ├── Churn_KNN_RF_DT.ipynb
-│   ├── python_project_presentation_final.pptx
-│   └── random_forest_model.pkl  ⬅️ (created here)
-│
-└── Part_B_MongoDB/
-    ├── Mongo_PartB.ipynb
-    ├── random_forest_model.pkl  ⬅️ 📂 (move the file here)
-    └── Screenshots/
-        ├── 6.1.PNG
-        └── 6.2.PNG
-        
 ---
 
 ### 📌 [Part B: MongoDB Integration](Part_B_MongoDB/)

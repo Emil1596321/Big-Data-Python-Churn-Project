@@ -32,7 +32,9 @@ After running the notebook (Churn_KNN_RF_DT.ipynb), a trained Random Forest mode
 ✅ How to Use the Model File:
 
 After execution, the file will appear in your project folder (Part_A_ML_Python/random_forest_model.pkl).
+
 Important: Move (copy-paste) this model file into the Part B folder for further use:
+
 ---
 
 ### 📌 [Part B: MongoDB Integration](Part_B_MongoDB/)
